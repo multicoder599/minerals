@@ -12,7 +12,7 @@ const jwt = require('jsonwebtoken');
 const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 const JWT_SECRET = process.env.JWT_SECRET || 'change-this-secret-in-production';
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/mineralholdings';
 const CLIENT_URL = process.env.CLIENT_URL || '*';
