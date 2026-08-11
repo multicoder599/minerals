@@ -29,7 +29,7 @@
      name: { type: String, required: true, trim: true },
      email: { type: String, required: true, unique: true, lowercase: true, trim: true },
      password: { type: String, required: true },
-     balance: { type: Number, default: 10000 },
+     balance: { type: Number, default: 0 },
      airtelMoney: {
        phone: { type: String, default: null },
        verified: { type: Boolean, default: false },
